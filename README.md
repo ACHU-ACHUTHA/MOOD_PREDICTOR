@@ -5,11 +5,11 @@ with interactive ui
 🧠 Tech Stack
  Component      |     Technology
 ------------------------------------------------
-Frontend        |      Streamlit
+Frontend        |     Streamlit
 ML Model        |     scikit-learn (Naive Bayes)
-Translation     |  	Hugging Face Transformers
-Backend / Auth  |   SQLite
-Language        |  Python 3
+Translation     |    	Hugging Face Transformers
+Backend / Auth  |     SQLite
+Language        |     Python 3
 --------------------------------------------
 🛠 Future Improvements
 *Add multilingual translation support (English ↔️ Mizo ↔️ Hindi).
