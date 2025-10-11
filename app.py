@@ -82,14 +82,7 @@ def get_translation(text):
     if text in translation_cache:
         return translation_cache[text]
     translation = translator(text)[0]['translation_text']
-# app.py
-import streamlit as st
-import pandas as pd
-import random
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import MultinomialNB
-from transformers import pipeline
+
 
 # ==========================
 # Initialize session state
@@ -229,3 +222,4 @@ if user_input:
     st.markdown(f"**🗣️ English Translation:** {translation}")
     st.markdown(f"**🤖 Bot Reply (Mizo):** {reply_mizo}")
     st.markdown(f"**💬 Suggestion in English:** {reply_english}")
+
