@@ -12,6 +12,7 @@ from transformers import pipeline
 if "users" not in st.session_state:
     st.session_state.users = {
         "achu": "password123",  # regular user
+        "user":"user123",
         "admin": "admin123"     # ✅ admin user
     }
 
@@ -198,3 +199,4 @@ if st.session_state.username == "admin":
             st.markdown(f"**🤖 Bot (Mizo):** {chat['bot_mizo']}")
             st.markdown(f"**💬 Suggestion (English):** {chat['bot_english']}")
             st.markdown("---")
+
