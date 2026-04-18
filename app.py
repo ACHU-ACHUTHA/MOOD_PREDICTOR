@@ -471,6 +471,8 @@ def main():
                 clear_predictions()
                 st.success("History cleared!")
                 st.rerun()
+        st.markdown("### 👨‍💻 Developer")
+        st.markdown("**Achu**  \nAI/ML Enthusiast")
 
 
 if __name__ == "__main__":
